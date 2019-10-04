@@ -6,4 +6,8 @@ In this Crazy Barrels Edition you play the barrels screen over and over again. B
 
 YouTube video: https://www.youtube.com/watch?v=9VUs9IkR-v0.
 
-You can play this game in Mame by replacing the original dkong.zip by this Crazy Barrels version of the zip.
+There are two ways to play this rom-hack:
+
+- Play in an emulator that supports the rom-hack. Currently Homebrew Mame (HBMame) and Libretro FB Neo (lr-fbneo) support the game. Use the dkcbarrel.zip and place it in the appropriate rom location. On RetroPie you must use the lr-fbneo emulator to play the rom-hack. You might have to update Retropie lr-fbneo from source to get the most recent version of the emulator.
+
+- On most other emulators (e.g. WolfMame) you can play this game by replacing the original dkong.zip by this Crazy Barrels version of the dkong.zip. You have to start the emulator without checksum checking (in WolfMame by starting it from the command line and specifying the romname).
